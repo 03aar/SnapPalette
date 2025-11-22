@@ -1,0 +1,5 @@
+{
+  "name": "SnapPalette",
+  "description": "Turn any UI screenshot into a design system. Instantly extract colors, typography, and spacing tokens.",
+  "requestFramePermissions": []
+}
