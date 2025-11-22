@@ -117,7 +117,7 @@ export const analyzeScreenshot = async (file: File): Promise<AnalysisResult> => 
     });
 
     const text = response.text;
-    if (!text) throw new Error("No response from Gemini");
+    if (!text) throw new Error("No response from analysis service");
 
     const data = JSON.parse(text);
 
@@ -129,7 +129,7 @@ export const analyzeScreenshot = async (file: File): Promise<AnalysisResult> => 
     };
 
   } catch (error) {
-    console.error("Gemini Analysis Error:", error);
+    console.error("Analysis Error:", error);
     throw error;
   }
 };

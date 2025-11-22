@@ -73,7 +73,7 @@ const UploadView: React.FC<UploadViewProps> = ({ onFileSelect, isAnalyzing }) =>
           <div className="flex flex-col items-center animate-pulse">
             <Loader2 className="w-16 h-16 text-blue-600 animate-spin mb-4" />
             <h3 className="text-xl font-medium text-slate-700">Analyzing pixels...</h3>
-            <p className="text-slate-400 mt-2">Extracting tokens via Gemini AI</p>
+            <p className="text-slate-400 mt-2">Extracting tokens via AI engine</p>
           </div>
         ) : (
           <>
